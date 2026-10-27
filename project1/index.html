@@ -1,127 +1,329 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>MY portfolio</title>
-    <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Kumar | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
 
-<body >
-    <section class="header">
-        <div class="home"><a href="#home">HOME</a></div>
-        <div class="about"><a href="#about">ABOUT US</a></div>
-        <div class="contact"><a href="#contact">CONTACT</a></div>
-    </section>
-    <section class="contain bg " id="home">
-        <h2>
-            <p>Hi, I'm</p> Web Developer
-        </h2>
-    </section>
-    <div class="heading" id="about">About Me</div>
-    <section class="about-us">
-        <div class="image"></div>
-        <div class="text">
-            <h2>I am Uday kumar</h2>
-            <p>I am a passionate web developer with experience in creating responsive and user-friendly websites.
-                ut tincidunt eros est nec diam Fusce Fusce quis volutpat porta, ut tincidunt eros est nec diam erat
-                quis volutpat porta, neque massa, ut tincidunt eros est nec diam Fusce Fusce quis volutpat porta,
-                ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam
-                ut tincidunt eros est nec diam Fusce Fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis
-                volutpat porta,neque massa, ut tincidunt eros est nec diam Fusce Fusce quis volutpat porta, ut tincidunt
-                eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam</p>
-        </div>
-    </section>
-        <h1 class="skills-heading">My Skills</h1>
+    <header class="header" id="header">
+        <a href="#home" class="logo">Uday<span>.</span></a>
 
-    <section class="skills">
-        <div class="skills-container">
-            <div class="skill">
-                <i class="fab fa-html5"></i>
-                <h2>HTML</h2>
-                <p>Proficient in HTML5, creating semantic and accessible web pages.</p>
-            </div>
-            <div class="skill">
-                <i class="fa-brands fa-css"></i>
-                <h2>CSS </h2>
-                <p>Skilled in CSS3, designing responsive layouts and visually appealing websites.</p>
-            </div>
-            <div class="skill">
-                <i class="fa-brands fa-square-js"></i>
-                <h2>JavaScript</h2>
-                <p>Experienced in JavaScript, adding interactivity and dynamic features to web applications.</p>
-            </div>
-            
-        </div>
-        <div class="skills-container">
-            <div class="skill">
-                <i class="fab fa-html5"></i>
-                <h2>HTML</h2>
-                <p>Proficient in HTML5, creating semantic and accessible web pages.</p>
-            </div>
-            <div class="skill">
-                <i class="fa-brands fa-css"></i>
-                <h2>CSS </h2>
-                <p>Skilled in CSS3, designing responsive layouts and visually appealing websites.</p>
-            </div>
-            <div class="skill">
-                <i class="fa-brands fa-square-js"></i>
-                <h2>JavaScript</h2>
-                <p>Experienced in JavaScript, adding interactivity and dynamic features to web applications.</p>
-            </div>
-            
-        </div>
-    </section>
-        <h1 class="portfolio-title">Portfolio</h1>
+        <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
-    <section class="portfolio">
-        <div class="portfolio-container">
-            <div class="portfolio-item"><a href="file:///C:/Users/ukema/Documents/new%20task/first%20web%20page/web.html"><img src="image/portfolio1.png"  width="500" height="300"></a></div>
-            <div class="portfolio-item"><a href="project2.html"><img src="image/portfolio2.png" alt="portfolio 2" width="200" height="210"></a></div>
-            <div class="portfolio-item"><a href="file:///C:/Users/ukema/Documents/Web%20devlopment/webs/AI/calculator-app/src/index.html"><img src="image/portfolio3.png" alt="portfolio 3" width="200" height="200 "></a></div>
-        </div>
-         <div   class="portfolio-container">
-            <div class="portfolio-item"><a href="project4.html"><img src="" alt="portfolio 4"></a></div>
-            <div class="portfolio-item"><a href="project5.html"><img src="" alt="portfolio 5"></a></div>
-            <div class="portfolio-item"><a href="project6.html"><img src="" alt="portfolio 6"></a></div>
-        </div>
-    
-    </section>
-    <h1 class="contact-heading" id="contact">Contact</h1>
-    <section class="contact">
-        <h2>Get in Touch</h2>
-        <p>Feel free to reach out to me for any inquiries or collaborations. I'm always open to new opportunities and connections.</p>
-        <div class="contact-form">
-            <div class="contact-info">
-            <div class="name"> <input type="text" placeholder="Your Name"></div>
-            <div class="email"><input type="email" placeholder="Your Email"></div>
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="header-btn">Hire Me</a>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Uday Kumar</span></h1>
+                <h2>Aspiring Web Developer</h2>
+                <p class="home-description">
+                    I enjoy creating websites and learning new technologies
+                    to build better web experiences.
+                </p>
+
+                <div class="home-buttons">
+                    <a href="#portfolio" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:uday.mrcc@gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
             </div>
-            <div class="message"><input type="text" placeholder="Your message"></div>
-            <div class="submit"><button type="submit">Send Message</button></div>
+
+            <div class="home-art">
+                <div class="art-circle"></div>
+                <div class="art-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Building for the web</span>
+                    <div class="art-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="floating-icon icon-one"><i class="fa-brands fa-html5"></i></div>
+                <div class="floating-icon icon-two"><i class="fa-brands fa-react"></i></div>
+                <div class="floating-icon icon-three"><i class="fa-brands fa-js"></i></div>
+            </div>
+
+            <a href="#about" class="scroll-down" aria-label="Scroll to About">
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-art">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Learning. Building. Improving.</span>
+                </div>
+
+                <div class="about-text">
+                    <h3>I'm Uday Kumar, an aspiring web developer.</h3>
+                    <p>
+                        I enjoy building websites using HTML, CSS, JavaScript,
+                        and React. I improve my skills by practising and working
+                        on real projects.
+                    </p>
+                    <p>
+                        My goal is to become a better developer by learning new
+                        technologies and creating useful, responsive websites.
+                    </p>
+
+                    <div class="about-details">
+                        <p><strong>Name:</strong> Uday Kumar</p>
+                        <p><strong>Role:</strong> Aspiring Web Developer</p>
+                        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React</p>
+                    </div>
+
+                    <a href="#contact" class="btn">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Creating the structure and content of web pages.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Styling websites and creating responsive layouts.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactive features to websites.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                    <p>Building reusable components and user interfaces.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-solid fa-wind"></i>
+                    <h3>Tailwind CSS</h3>
+                    <p>Styling layouts with utility classes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section portfolio" id="portfolio">
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+                <p class="section-description">Explore the websites I've built.</p>
+            </div>
+
+            <div class="portfolio-container">
+                <article class="portfolio-item">
+                    <a class="project-preview medical-preview" href="https://react-medical-website1-p7cx0ruto-coder-156d.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Medical Website">
+                        <div class="preview-browser">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <span>Medical Care</span>
+                        </div>
+                        <i class="fa-solid fa-heart-pulse preview-main-icon"></i>
+                        <span class="preview-caption">Healthcare Website</span>
+                    </a>
+                    <div class="project-info">
+                        <p class="project-number">PROJECT 01</p>
+                        <h3>Medical Website</h3>
+                        <p>A medical website built with React.</p>
+                        <a class="project-link" href="https://react-medical-website1-p7cx0ruto-coder-156d.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            Visit Website <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <a class="project-preview gallery-preview" href="https://gallery-806gg83qe-coder-156d.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Image Gallery">
+                        <div class="preview-browser">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <span>Image Gallery</span>
+                        </div>
+                        <div class="gallery-mini">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="preview-caption">Explore the Gallery</span>
+                    </a>
+                    <div class="project-info">
+                        <p class="project-number">PROJECT 02</p>
+                        <h3>Image Gallery</h3>
+                        <p>A website for browsing and viewing images.</p>
+                        <a class="project-link" href="https://gallery-806gg83qe-coder-156d.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            Visit Website <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="portfolio-item empty-project">
+                    <div class="empty-project-content">
+                        <i class="fa-solid fa-plus"></i>
+                        <h3>Coming Soon</h3>
+                        <p>Your next project will go here.</p>
+                    </div>
+                </article>
+
+                <article class="portfolio-item empty-project">
+                    <div class="empty-project-content">
+                        <i class="fa-solid fa-plus"></i>
+                        <h3>Coming Soon</h3>
+                        <p>Your next project will go here.</p>
+                    </div>
+                </article>
+
+                <article class="portfolio-item empty-project">
+                    <div class="empty-project-content">
+                        <i class="fa-solid fa-plus"></i>
+                        <h3>Coming Soon</h3>
+                        <p>Your next project will go here.</p>
+                    </div>
+                </article>
+
+                <article class="portfolio-item empty-project">
+                    <div class="empty-project-content">
+                        <i class="fa-solid fa-plus"></i>
+                        <h3>Coming Soon</h3>
+                        <p>Your next project will go here.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Contact <span>Me</span></h2>
+                <p class="section-description">Have a question? Feel free to contact me.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's connect</h3>
+                    <p>I'm interested in web development, learning, and building projects.</p>
+
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:uday.mrcc@gmail.com">uday.mrcc@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fa-brands fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visit GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="mailto:uday.mrcc@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button class="btn" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">Uday<span>.</span></a>
+        <p>Designed and built by Uday Kumar</p>
+
+        <div class="footer-socials">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:uday.mrcc@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
         </div>
 
-        <div class="social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-    </section>
+        <p class="copyright">© 2026 Uday Kumar. All rights reserved.</p>
+    </footer>
 
-
-
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script>
+        const header = document.getElementById("header");
+        const menuBtn = document.getElementById("menu-btn");
+        const navbar = document.getElementById("navbar");
+        const backToTop = document.getElementById("back-to-top");
 
         window.addEventListener("scroll", function () {
-            const header = document.querySelector(".header");
-            // header.classList.toggle("sticky", window.scrollY > 0);
-            if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-                header.style.backgroundColor = "#000000d5";
-            }
-            else{
-                header.style.backgroundColor = "transparent";
-            }
+            header.classList.toggle("scrolled", window.scrollY > 40);
+            backToTop.classList.toggle("show", window.scrollY > 250);
+        });
+
+        menuBtn.addEventListener("click", function () {
+            navbar.classList.toggle("active");
+            const isOpen = navbar.classList.contains("active");
+            menuBtn.innerHTML = isOpen
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+            menuBtn.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+        });
+
+        navbar.querySelectorAll("a").forEach(function (link) {
+            link.addEventListener("click", function () {
+                navbar.classList.remove("active");
+                menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+                menuBtn.setAttribute("aria-label", "Open menu");
+            });
+        });
+
+        backToTop.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
         });
     </script>
-</body>
 
+</body>
 </html>
